@@ -1,0 +1,1 @@
+import{_ as s}from"./index.7beeb6d5.js";const f=(p,r)=>{const o=s({},p);return Object.keys(r).forEach(t=>{const e=o[t];if(e)e.type||e.default?e.default=r[t]:e.def?e.def(r[t]):o[t]={type:e,default:r[t]};else throw new Error(`not have ${t} prop`)}),o};var n=f;export{n as i};

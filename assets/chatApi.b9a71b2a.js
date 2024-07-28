@@ -1,0 +1,1 @@
+import{at as c,au as o,aS as n,aM as s}from"./index.7beeb6d5.js";const l={__name:"chatApi",setup(r){const a=()=>{fetch("https://api.a20safe.com/api.php?api=51&key=eac190d8b34c0e57443b77b44deed248&keyword=\u4F60\u597D").then(e=>e.json()).then(e=>{console.log(e)})};let t;return c(()=>{a(),t=setInterval(a,5e3)}),o(()=>{clearInterval(t)}),(e,p)=>(s(),n("div"))}};export{l as default};
